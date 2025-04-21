@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import { ReactNode } from "react";
 
 const AuthLayout = ({ children }: { children: ReactNode }) => {

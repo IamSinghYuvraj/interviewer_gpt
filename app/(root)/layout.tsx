@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { ReactNode } from "react";
 
+import { redirect } from "next/navigation";
+
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="root-layout">
